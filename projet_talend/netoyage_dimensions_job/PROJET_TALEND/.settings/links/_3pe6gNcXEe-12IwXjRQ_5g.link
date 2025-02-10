@@ -1,0 +1,17 @@
+{
+  "itemId" : "_3pe6gNcXEe-12IwXjRQ_5g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_WL5wcNcXEe-12IwXjRQ_5g",
+    "parameterList" : [ {
+      "id" : "_WMEIgNcXEe-12IwXjRQ_5g",
+      "name" : "input_file"
+    }, {
+      "id" : "_WMEIgdcXEe-12IwXjRQ_5g",
+      "name" : "output_file"
+    }, {
+      "id" : "_2egtoN6VEe-yyZ5Ja5sYIg",
+      "name" : "path_dimentions"
+    } ]
+  } ]
+}

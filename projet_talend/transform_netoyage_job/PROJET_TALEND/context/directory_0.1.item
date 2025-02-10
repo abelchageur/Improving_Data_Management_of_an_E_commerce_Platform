@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_WMDhcNcXEe-12IwXjRQ_5g" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_WMEIgNcXEe-12IwXjRQ_5g" comment="" name="input_file" prompt="input_file?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/Youcode/Desktop/projet_2025/workspace/newandnew/input/"/>
+  <contextParameter xmi:id="_WMEIgdcXEe-12IwXjRQ_5g" comment="" name="output_file" prompt="output_file?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/Youcode/Desktop/projet_2025/workspace/newandnew/output/"/>
+  <contextParameter xmi:id="_2egtoN6VEe-yyZ5Ja5sYIg" comment="" name="path_dimentions" prompt="path_dimentions?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:/Users/Youcode/Desktop/projet_2025/workspace/newandnew/output/dimensions/"/>
+</talendfile:ContextType>

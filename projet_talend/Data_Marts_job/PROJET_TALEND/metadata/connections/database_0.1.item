@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_c4l-8NfoEe-12IwXjRQ_5g" name="database" id="_OOsLwNfnEe-12IwXjRQ_5g" label="database" dataPackage="_IhZngOY6Ee-AgtncJ1w1VQ" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/med_database;" dbVersionString="JTDS" Port="1433" Username="sa" Password="enc:system.encryption.key.v1:KmlGc0941treav2eHJ9Pv/PD/aH9atbEC/L+YrXYGcgmUvU=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="med_database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_c4l-8dfoEe-12IwXjRQ_5g" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_c40ocNfoEe-12IwXjRQ_5g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_c40ocdfoEe-12IwXjRQ_5g" tag="Status" value=""/>
+    <taggedValue xmi:id="_c40octfoEe-12IwXjRQ_5g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_c40oc9foEe-12IwXjRQ_5g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_c40odNfoEe-12IwXjRQ_5g" tag="Description" value=""/>
+    <taggedValue xmi:id="_c40oddfoEe-12IwXjRQ_5g" tag="Author" value=""/>
+    <taggedValue xmi:id="_c40odtfoEe-12IwXjRQ_5g" tag="otherParameter"/>
+    <taggedValue xmi:id="_c43EsNfoEe-12IwXjRQ_5g" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_c43EsdfoEe-12IwXjRQ_5g" tag="DB ProductVersion" value="12.00.2269"/>
+    <taggedValue xmi:id="_c43EstfoEe-12IwXjRQ_5g" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_c4l-8tfoEe-12IwXjRQ_5g" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_1Q-HQNkVEe--rafudAsVWQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_IhZngOY6Ee-AgtncJ1w1VQ" name="med_database" dataManager="_c4l-8NfoEe-12IwXjRQ_5g">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_IhZngeY6Ee-AgtncJ1w1VQ" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
