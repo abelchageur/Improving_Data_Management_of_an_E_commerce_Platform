@@ -72,3 +72,62 @@ Dans un secteur e-commerce de plus en plus compétitif, l’exploitation efficac
     0, 
     'Test failed: SalesFact has NULL SaleID.'
   );
+## Création des Data Marts
+
+### Data Mart des Ventes
+- `SalesFact`, `TimeDimension`, `ProductDimension`, `CustomerDimension`.
+
+### Data Mart de l’Inventaire
+- `InventoryFact`, `TimeDimension`, `ProductDimension`, `SupplierDimension`.
+
+### Analyses
+- **Meilleurs produits et catégories**.
+- **Segmentation des clients**.
+- **Niveaux critiques de stock**.
+
+---
+
+## Analyse et Visualisation avec Power BI
+
+### Tableaux de bord dynamiques
+- **Tendances des ventes**.
+- **Cartes géographiques des ventes**.
+- **Niveaux d’inventaire et délais de réapprovisionnement**.
+
+### Analyse prédictive
+- **Prévisions avec ARIMA**.
+
+### Alertes
+- **Détection des seuils critiques (rupture de stock)**.
+
+---
+
+## Orchestration avec Talend JobConductor
+
+- **Automatisation du pipeline ETL**.
+- **Dépendances entre tâches** (chargement des dimensions avant les faits).
+- **Suivi et journalisation des exécutions**.
+
+---
+
+## Installation et Exécution
+
+### Prérequis
+- **Talend Open Studio**
+- **Microsoft SQL Server**
+- **Power BI Desktop**
+- **Python (optionnel)**
+
+### Installation
+1. Cloner ce repository :
+   ```bash
+   git clone https://github.com/votre-repo/ecommerce-data-pipeline.git
+   cd ecommerce-data-pipeline
+2. **Configurer Talend** pour exécuter les jobs ETL.
+3. **Déployer les scripts SQL Server** pour créer l’entrepôt de données.
+4. **Charger les données** et **exécuter les tests unitaires**.
+   
+## Exécution
+
+1. **Lancer les jobs Talend** via **JobConductor**.
+2. **Ouvrir Power BI** et **actualiser les dashboards**.
